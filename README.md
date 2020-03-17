@@ -1,6 +1,10 @@
 diary1801182-docker-composeFile
 
+<<<<<<< HEAD
 ## Springを用いた日誌管理システムを公開した際のdockerFile
+=======
+## SpringBootを用いた日誌管理システムを公開した際のdockerFile
+>>>>>>> ee3b5627ce1d257f5efdd839ca6998305735fbfd
 
 ```
 1.ビルド・立ち上げ
