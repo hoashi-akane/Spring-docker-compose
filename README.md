@@ -1,6 +1,6 @@
 diary1801182-docker-composeFile
 
-## Servlet+jspを用いた日誌管理システムを公開した際のdockerFile
+## SpringBootを用いた日誌管理システムを公開した際のdockerFile
 
 ```
 1.ビルド・立ち上げ
