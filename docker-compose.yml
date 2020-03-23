@@ -3,11 +3,11 @@ services:
     mysql:
         image: mysql:8.0.18
         ports:
-            - "3306:3306"
+            - 3306:3306
         volumes:
-            - "./mysql/init:/docker-entrypoint-initdb.d"
-            - "./mysql/data:/car/lib/mysql"
-            - "./mysql/conf.d/my.cnf:/etc/mysql/conf.d/my.cnf"
+            - ./mysql/init:/docker-entrypoint-initdb.d
+            - ./mysql/data:/car/lib/mysql
+            - ./mysql/conf.d/my.cnf:/etc/mysql/conf.d/my.cnf
         environment:
             - MYSQL_ROOT_PASSWORD=root
         command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
